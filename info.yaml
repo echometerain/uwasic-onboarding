@@ -1,11 +1,15 @@
-title: "ASIC Onboarding Project - echometer"
-author: "echometer"
-description: "SPI-controlled PWM peripheral for Tiny Tapeout."
-top_module: "tt_um_uwasic_onboarding_echometer"  # Match your top module name
-source_files:
-  - "spi peripheral"
-  - pwm_peripheral.v  
-  - project.v
+project:
+  title: "ASIC Onboarding Project - echometer"
+  author: "echometer"
+  description: "SPI-controlled PWM peripheral for Tiny Tapeout."
+  language: "verilog"
+  tiles: "1x1"
+  clock_hz: 0
+  top_module: "tt_um_uwasic_onboarding_echometer"  # Match your top module name
+  source_files:
+    - "spi peripheral"
+    - pwm_peripheral.v  
+    - project.v
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
